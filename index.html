@@ -90,17 +90,14 @@ svg.line{fill: none;stroke: #fff;stroke-width: 2;animation: moving .7s linear in
      <div id="Tombol">
        <a id="By" onClick="multifungsi()">
          <b id="tmbl">💌 Mau</b>
-       </a>
-       
+       </a
        <a id="Bn" onClick="btn='Bn';fungsibaru(btn)">Gamau</a>
      </div>
-     
    </div>
 <!-- Jangan Edit Bagian Ini --><script>
   ftom=0;jikapr=1;ftganti=0;flag=1;flagg=1;fungsi=0;function showDiv() {pesanwhatsapp = "Aku mau kok jadi pacarmu ><";Content.style = "opacity:1;margin-top:15vh;";ket.style="margin-top:30px";}
   function memulai(){suratin.style="transition:all .8s ease;transform:scale(.1);opacity:0";ket.style="transition:all .8s ease;transform:scale(.1);opacity:0";setTimeout(mulaikonten,1000)}
   function mulaikonten() {otomatis();suratin.style="display:none";ket.style="display:none";Content.style = "opacity:1;margin-top:4vh";bodyblur.style="opacity:.5;animation:none";wallpaper.style="transform: scale(2);opacity:1;";fotoakhir.style="display:inline-flex;";setTimeout(ftmuncul,200);bq.style = "position:relative;opacity:1;visibility:visible;transform: scale(1);border-radius:var(--bingkai);margin-top:0";fungsi=1;setTimeout(tombol,500);}
-  
   function ftmuncul(){
     if(ftganti==0){fotoakhir.style="display:inline-flex;opacity:1;transform:scale(1)";}
     if(ftganti==1){fotoakhir.src = fotoakhir2.src;fotoakhir.style="display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(1);";}
@@ -208,6 +205,11 @@ setInterval(function() {var heartArr = document.querySelectorAll(".heart-icon");
   <source src="James Arthur - A Thousand Years (Christina Perri Cover).mp3" type="audio/mpeg">
 </audio>
 
+<script>
+  document.addEventListener('click', function() {
+    document.querySelector('audio').play();
+  });
+</script>
 <script>
   // Biar musik bunyi pas klik surat
   document.addEventListener('click', function() {
